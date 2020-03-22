@@ -1,0 +1,70 @@
+html, body {height: 100%}
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-image: url("../16083.jpg");
+	display: flex;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.logo
+{
+	margin-left: 390px;
+	margin-top: 0px;
+}
+.box
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.box img
+{
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;	
+}
+.box h1
+{
+	font-size: 30px;
+	font-family: century gothic;
+	font-weight: bold;
+	color: #262626;
+}
+ul
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	text-decoration: none;
+	font-family: century gothic;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: transparent;
+	color: #000;
+	border: 1px solid #262626;
+	border-radius: 20px;
+	padding: 5px 10px;
+	transition: 0.6s;
+}
+ul li a:hover
+{
+	background-color: #262626;
+	color: #fff;
+}

@@ -1,0 +1,181 @@
+html, body {height: 100%}
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	background-image: url("../coffee.png");
+	display: flex;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+
+}
+.nav 
+{
+	width: 230px;
+	height: 100%;
+	background-color: #262626;
+	background-size: cover;
+	background-position: center;
+}
+.bar ul li a
+{
+	text-decoration: none;
+	font-family: century gothic;
+	font-weight: bold;
+	font-size: 18px;
+	color: silver;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 5px 10px;
+	transition: 0.3s linear;
+}
+.bar ul li a:hover
+{
+	background: silver;
+	color: #ff6348;
+
+}
+.bar ul li.active a
+{
+	background-color: silver;
+	/*color: #fff;*/
+}
+.bar ul li
+{
+	list-style: none;
+	margin-top: 20px;
+	text-align: center;
+	margin-right: 25px;
+}
+.logo
+{
+	border: 1px solid transparent;
+	border-radius: 20px;
+	width: 120px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: silver;
+	transition: 0.6s;
+}
+.logo:hover
+{
+	background-color: #ff6348;
+	color: silver;
+}
+
+.box-a
+{
+	width: 40px;
+	height: 30px;
+	background-color: #ff6348;
+
+}
+.content
+{
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+}
+.background
+{
+	background-color: rgba(0,0,0,0.3);
+	width: 1125px;
+	height: 590px;
+	/*display: flex;*/
+	/*flex: 1;*/
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 20px;
+	padding-top: 5px; 
+
+}
+.background h3
+{
+	font-size: 30px;
+	font-family: century gothic;
+	color: #fff;
+	margin-left: 25px;
+	padding: 0px 5px;
+	border: 3px solid orange;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+
+}
+.image
+{
+	width: 1075px;
+	height: 470px;
+	background-color: silver;
+	float: left;
+	margin-left: 25px;
+	border-radius: 20px;
+}
+.image h4
+{
+	text-align: center;
+	text-align: justify;
+	margin-left: 300px;
+	font-family: century gothic;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.image p
+{
+	text-align: center;
+	text-align: justify;
+	margin-left: 300px;
+	font-family: century gothic;
+	font-size: 16px;
+}
+.box-img
+{
+	width: 250px;
+	height: 360px;
+	margin-left: 35px;
+	margin-top: 55px;
+	position: absolute;
+	display: flex;
+	overflow: hidden;
+	transition: transform 2s;
+
+}
+.box-img:hover
+{
+	transform: scale(1.1);
+}
+.image table
+{
+	text-align: left;
+	margin-left: 300px;
+	font-family: century gothic;
+}
+.btn
+{
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	align-items: center;
+	font-family: century gothic;
+	padding: 0 10px;
+	margin-top: 10px;
+	margin-left: 300px;
+	background: #ff6348;
+	border-radius: 30px;
+	border: 1px solid #ff6348;
+	cursor: pointer;
+}
+
+

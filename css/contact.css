@@ -1,0 +1,86 @@
+html, body {height: 100%}
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	background-image: url("../coffee.png");
+	display: flex;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+
+}
+.nav 
+{
+	width: 200px;
+	background-color: #262626;
+
+}
+.logo
+{
+	border: 1px solid transparent;
+	border-radius: 20px;
+	width: 120px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	transition: 0.6s;
+}
+.logo:hover
+{
+	background-color: #ff6348;
+	color: #fff;
+}
+.box
+{
+	width: 30px;
+	height: 30px;
+	background-color: #ff6348;
+	padding-top: 20px;
+}
+.background
+{
+	/*background-image: url("../67.jpg");*/
+	background-color: rgba(0,0,0,0.4);
+	background-size: cover;
+	width: 1125px;
+	height: 600px;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 20px;
+	padding-top: 5px; 
+
+}
+.background h3
+{
+	font-size: 30px;
+	font-family: century gothic;
+	color: #fff;
+	margin-left: 25px;
+	padding: 5px 10px;
+	border: 3px solid orange;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+
+}
+.image
+{
+	width: 1075px;
+	height: 470px;
+	background-color:#262626;
+	float: left;
+	margin-left: 25px;
+	border-radius: 20px;
+
+}

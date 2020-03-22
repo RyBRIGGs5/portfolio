@@ -1,0 +1,46 @@
+html, body {height: 100%}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url('../67.jpg');
+	background-size: cover;
+}
+.header
+{
+	width: 100%;
+	height: 55px;
+	background-color: #262626;
+	margin-bottom: 20px;
+}
+.header ul li a
+{
+	text-decoration: none;
+	display: flex;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: century gothic;
+	color: silver;
+
+}
+.header ul li
+{
+	display: flex;
+	list-style: none;
+	display: inline-block;
+
+}
+.container
+{
+	background-image: url("../coffee.png");
+	margin: auto;
+	width: 1000px;
+	height: 85%;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
